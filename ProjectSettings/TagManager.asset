@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NormalBullets
+  - Effects
+  - Enemies
+  - StaticEnemies
+  - None
+  - Barrel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: CameraBG
+    uniqueID: 333307367
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG-Back
+    uniqueID: 2120490671
+    locked: 0
+  - name: BG-Water
+    uniqueID: 9006657
+    locked: 0
+  - name: backGroundEffects
+    uniqueID: 2158033789
+    locked: 0
+  - name: Platform
+    uniqueID: 891836603
+    locked: 0
+  - name: PlayerAssets
+    uniqueID: 2418546309
+    locked: 0
+  - name: Bullet
+    uniqueID: 4024728971
+    locked: 0
+  - name: Player
+    uniqueID: 2498350229
+    locked: 0
+  - name: Weapon
+    uniqueID: 2902316985
+    locked: 0
+  - name: Enemy
+    uniqueID: 2752949991
+    locked: 0
+  - name: ForeGround
+    uniqueID: 499948895
+    locked: 0
+  - name: Effect
+    uniqueID: 3834628943
+    locked: 0
+  - name: Controller
+    uniqueID: 2618573613
+    locked: 0

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8692987639465431558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771079639024539395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedff007e59306c439ff956d43e47414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayOnDestroy: 0.2
+--- !u!1001 &6716445669130709444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4610187068905724787, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: explosionForce
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4610187068905724787, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: upwardForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234872176968154823, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosion3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5707116568355913327, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5707116568355913327, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.6706195
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.281672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 52.188423
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950494461372587281, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103704382496665931, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: damgeTags.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103704382496665931, guid: ce1000a7ab1644346b4e6535114b4608,
+        type: 3}
+      propertyPath: damgeTags.Array.data[1]
+      value: Barrel
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -5439967072704505218, guid: ce1000a7ab1644346b4e6535114b4608, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ce1000a7ab1644346b4e6535114b4608, type: 3}
+--- !u!1 &4771079639024539395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2234872176968154823, guid: ce1000a7ab1644346b4e6535114b4608,
+    type: 3}
+  m_PrefabInstance: {fileID: 6716445669130709444}
+  m_PrefabAsset: {fileID: 0}
